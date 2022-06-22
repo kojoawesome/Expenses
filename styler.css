@@ -15,6 +15,7 @@ body{background-color:#F2E9DC ;
     padding: 5px 15px ;
     border-radius: 10px;
     line-height: 0%;
+    color: white;
 }
 
 #titlebar{width: 300px;
@@ -31,31 +32,50 @@ justify-content: space-between;
     display: flex;
     background-color: white;
     margin-top: 15px;
+    border-radius: 10px;
 }
 
 .inner_self{
     padding: 20px;
-
+    flex-grow: 1;
 }
 
 .week{
     display: flex;
     flex-direction:row;
     justify-content: space-between;
-    flex: grow 1;;
+    flex: grow 1;
 
 }
 
 .days{
-    width: 25px;
+    width: 33px;
     height: 50px;
     background-color: #CE7963;
     border-radius: 3.5px;
 
 }
 
-.dtext {
+.dtext{
+display: flex;
+flex: grow 1;
+padding:4px 5px 0px 0px ;
+justify-content: space-between;
+font-size: 10pt;
+}
+
+hr{
+    opacity: 0.3;
+}
+
+.footer{
     display: flex;
-    margin-top:;
+    justify-content: space-between;
+    line-height: 0%;
+}
+
+.leftS{
+    text-align: right;
+    line-height: 100%;
 
 }
