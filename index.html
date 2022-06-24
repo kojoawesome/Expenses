@@ -6,7 +6,9 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./styler.css"> 
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Expenses chart component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -23,7 +25,7 @@
   <div class="First_container">
     <div id="titlebar"> 
       <div>
-        <p>My balance</p> 
+        <p style="font-size: 7pt;">My balance</p> 
         <h3>$921.48</h3>
       </div>      
       <div id="icon"> 
@@ -37,8 +39,8 @@
   </div>
   <div class="Second_container">
     <div class="inner_self">
-      <h3">Spending - Last 7 days</h3>
-      <div class="bar_chart" style="margin-top:100px;">
+      <h3 style="line-height:0px;">Spending - Last 7 days</h3>
+      <div class="bar_chart" style="margin-top:40px;">
         <div class="week">
           <div class="days"></div>
           <div class="days"></div>
@@ -52,7 +54,7 @@
           <span>mon</span>
           <span>tue</span>
           <span>wed</span>
-          <span>thr</span>
+          <span>thu</span>
           <span>fri</span>
           <span>sat</span>
           <span>sun</span>
@@ -64,12 +66,12 @@
       <br>
       <div class="footer">
         <div class="rightS">
-          <span> Total this month</span>
-          <h2>  $478.33</h2>
+          <span style="font-size:12px; color:rgb(171, 171, 171)"> Total this month</span>
+          <h2 style="font-size:30px;">  $478.33<h2>
           </div>
           <div class="leftS">
-            <span>  +2.4%</span> <br>
-            <span>   from last month </span>
+            <span style="font-size: smaller; font-weight: bold;">  +2.4%</span> <br>
+            <span style="font-size: 12px; color: rgb(171, 171, 171);">   from last month </span>
           </div>
       </div>
     </div>

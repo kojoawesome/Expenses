@@ -4,7 +4,10 @@ body{background-color:#F2E9DC ;
     height: 100vh;
     align-items:center ;
     justify-content: center;
+    font-family: 'Open Sans', sans-serif;
 }
+
+/* main styling */
 
 /* flex */
 .First_container{
@@ -44,8 +47,7 @@ justify-content: space-between;
     display: flex;
     flex-direction:row;
     justify-content: space-between;
-    flex: grow 1;
-
+    flex: grow 1; 
 }
 
 .days{
@@ -53,7 +55,9 @@ justify-content: space-between;
     height: 50px;
     background-color: #EC765D;
     border-radius: 3.5px;
-
+    align-self: flex-end;
+    max-width: 110px;
+    cursor: pointer;
 }
 
 .dtext{
@@ -72,14 +76,51 @@ hr{
     display: flex;
     justify-content: space-between;
     line-height: 0%;
+    align-items: flex-end;
 }
 
 .leftS{
     text-align: right;
     line-height: 100%;
-
 }
 
 .attribution{
     margin-top: 30px;
 }
+
+
+/*  Bar Chart values  */
+.days:nth-child(1){
+    height: 30px;
+}
+
+.days:nth-child(2){
+    height: 70px;
+}
+
+.days:nth-child(3){
+    height: 110px;
+}
+
+.days:nth-child(4){
+    height: 60px;
+}
+
+.days:nth-child(5){
+    height: 45px;
+}
+
+.days:nth-child(6){
+    height: 90px;
+}
+
+/* hover,active states */
+
+.days:hover{
+    background-color:#FF9B87 ;
+}
+
+.days:active{
+    background-color: #B4DFE5 ;
+}
+
