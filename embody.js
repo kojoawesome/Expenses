@@ -1,21 +1,25 @@
 
-let monday = document.getElementById('monday');
+// let monday = document.getElementById('monday');
 
-console.log(monday.nodeType);
+// console.log(monday.nodeType);
 
-monday.onmouseenter = function(){
-    // monday.style.backgroundColor = 'blue';
-}
+// monday.onmouseenter = function(){
+//     // monday.style.backgroundColor = 'blue';
+// }
 
 // grabbing inner_self
 
-const flasher = document.createElement('span');
-const flasher_pikin = document.createTextNode("$500");
+// const flasher = document.createElement('span');
+// const flasher_pikin = document.createTextNode('$5990');
 
-flasher.appendChild(flasher_pikin);
+// flasher.appendChild(flasher_pikin);
 
-document.getElementsByClassName('.inner_self').appendChild(flasher);
+// document.querySelector('.inner_self').appendChild(flasher);
 
+// flasher.style.position = 'absolute';
+// flasher.style.padding = '10px'
+// flasher.style.backgroundColor = 'blue';
+// col
 
 // ### FIRTS TRY ##### 
 

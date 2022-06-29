@@ -36,6 +36,7 @@ justify-content: space-between;
     background-color: white;
     margin-top: 15px;
     border-radius: 10px;
+    z-index: 1;
 }
 
 .inner_self{
@@ -124,3 +125,13 @@ hr{
     background-color: #B4DFE5 ;
 }
 
+/* js styler help */
+.hcatalist{
+    background-color:#392216;
+    padding: 8px 16px;
+    color: white;
+    position: absolute;
+    font-size: small;
+    border-radius: 7px;
+    z-index: 2;
+}
