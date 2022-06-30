@@ -1,39 +1,27 @@
 
-// let monday = document.getElementById('monday');
 
-// console.log(monday.nodeType);
+// ############################################################
+// ############################################################
 
-// monday.onmouseenter = function(){
-//     // monday.style.backgroundColor = 'blue';
-// }
+let pbox = document.getElementsByClassName('days');
+console.log(pbox);
 
-// grabbing inner_self
 
-// const flasher = document.createElement('span');
-// const flasher_pikin = document.createTextNode('$5990');
 
-// flasher.appendChild(flasher_pikin);
+for( let i = 0; i < pbox.length; i++){
+    pbox[i].addEventListener("mouseenter", eHovereffect);
+    pbox[i].addEventListener("mouseleave", lHovereffect)
+};
 
-// document.querySelector('.inner_self').appendChild(flasher);
 
-// flasher.style.position = 'absolute';
-// flasher.style.padding = '10px'
-// flasher.style.backgroundColor = 'blue';
-// col
 
-// ### FIRTS TRY ##### 
+function eHovereffect(e){
+    let prices = document.querySelectorAll("#pbox")[3];
+    prices.style.display = 'inline';
+};
 
-// for( var i = 0; i < bars.length; i++){
-//     bars[i].addEventListener('mouseover', hoverEffects );
-//   };
-
-// function hoverEffects(e){
-     
-//     // for( var i = 0; i < bars.length; i++){
-//     //     bars[i].style.backgroundColor = 'green';
-//     //   };
-     
-//     let mon = document.getElementById('monday')
-      
-// };
+function lHovereffect(e){
+    let prices = document.querySelectorAll("#pbox")[3];
+    prices.style.display = 'none';
+}
 

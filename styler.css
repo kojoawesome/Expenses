@@ -126,12 +126,81 @@ hr{
 }
 
 /* js styler help */
-.hcatalist{
+  .hcatalist{
     background-color:#392216;
-    padding: 8px 16px;
+    padding: 4px 8px;
     color: white;
     position: absolute;
     font-size: small;
     border-radius: 7px;
     z-index: 2;
+    margin: 100px 0px 0px 0px ;
 }
+
+.hcatalist2{
+    background-color:#392216;
+    padding: 4px 8px;
+    color: white;
+    position: absolute;
+    font-size: small;
+    border-radius: 7px;
+    z-index: 2;
+    margin: 68px 0px 0px 45px ;
+}
+
+.hcatalist3{
+    background-color:#392216;
+    padding: 4px 8px;
+    color: white;
+    position: absolute;
+    font-size: small;
+    border-radius: 7px;
+    z-index: 2;
+    margin: 20px 0px 0px 85px ;
+}
+
+.hcatalist4{
+    background-color:#392216;
+    padding: 4px 8px;
+    color: white;
+    position: absolute;
+    font-size: small;
+    border-radius: 7px;
+    z-index: 2;
+    margin: 73px 0px 0px 129px ;
+}
+
+.hcatalist5{
+    background-color:#392216;
+    padding: 4px 8px;
+    color: white;
+    position: absolute;
+    font-size: small;
+    border-radius: 7px;
+    z-index: 2;
+    margin: 90px 0px 0px 170px ;
+}
+
+.hcatalist6{
+    background-color:#392216;
+    padding: 4px 8px;
+    color: white;
+    position: absolute;
+    font-size: small;
+    border-radius: 7px;
+    z-index: 2;
+    margin: 48px 0px 0px 215px ;
+} 
+
+.hcatalist7{
+    background-color:#392216;
+    padding: 4px 8px;
+    color: white;
+    position: absolute;
+    font-size: small;
+    border-radius: 7px;
+    z-index: 2;
+    margin: 89px 0px 0px 260px ;
+} 
+
+
