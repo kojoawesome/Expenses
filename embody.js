@@ -1,27 +1,63 @@
-
+ 
 
 // ############################################################
 // ############################################################
 
-let pbox = document.getElementsByClassName('days');
-console.log(pbox);
+let day = document.getElementsByClassName('days');
+console.log(day);
 
 
-
+// loop for week-days
 for( let i = 0; i < pbox.length; i++){
-    pbox[i].addEventListener("mouseenter", eHovereffect);
-    pbox[i].addEventListener("mouseleave", lHovereffect)
+    day[i].addEventListener("mouseenter", eHovereffect);
+    day[i].addEventListener("mouseleave", lHovereffect);
 };
 
+
+//grabbing amount
+let prices = document.querySelectorAll("#pbox"); 
+console.log(day[1].id);
 
 
 function eHovereffect(e){
-    let prices = document.querySelectorAll("#pbox")[3];
-    prices.style.display = 'inline';
+
+    // if ( day[0].getAttribute('id') == 'monday' ){
+    //     prices[0].style.display = 'inline';
+    //    } 
+    //    else if (day[1].getAttribute('id') == 'tuesday' ){
+    //     prices[1].style.display = 'inline';
+    //    }
+
+    if(e.target.getAttribute('id') ==  'monday'){
+        prices[0].style.display = 'inline';
+    }
+    else if (e.target.getAttribute('id') ==  'tuesday'){
+        prices[1].style.display = 'inline';
+    }
+    else if (e.target.getAttribute('id') ==  'wednesday'){
+        prices[2].style.display = 'inline';
+    }
+    else if (e.target.getAttribute('id') ==  'thursday'){
+        prices[3].style.display = 'inline';
+    }
+    else if (e.target.getAttribute('id') ==  'friday'){
+        prices[4].style.display = 'inline';
+    }
+    else if (e.target.getAttribute('id') ==  'saturday'){
+        prices[5].style.display = 'inline';
+    }
+    else if (e.target.getAttribute('id') ==  'sunday'){
+        prices[6].style.display = 'inline';
+    }
+
+
+
+  
 };
 
 function lHovereffect(e){
-    let prices = document.querySelectorAll("#pbox")[3];
-    prices.style.display = 'none';
+    for( let i = 0; i < pbox.length; i++){
+        pbox[i].style.display = 'none';
+    };
 }
 

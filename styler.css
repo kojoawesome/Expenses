@@ -135,6 +135,7 @@ hr{
     border-radius: 7px;
     z-index: 2;
     margin: 100px 0px 0px 0px ;
+    display: none;
 }
 
 .hcatalist2{
@@ -146,6 +147,7 @@ hr{
     border-radius: 7px;
     z-index: 2;
     margin: 68px 0px 0px 45px ;
+    display: none;
 }
 
 .hcatalist3{
@@ -157,6 +159,7 @@ hr{
     border-radius: 7px;
     z-index: 2;
     margin: 20px 0px 0px 85px ;
+    display: none;
 }
 
 .hcatalist4{
@@ -168,6 +171,7 @@ hr{
     border-radius: 7px;
     z-index: 2;
     margin: 73px 0px 0px 129px ;
+    display: none;
 }
 
 .hcatalist5{
@@ -179,6 +183,7 @@ hr{
     border-radius: 7px;
     z-index: 2;
     margin: 90px 0px 0px 170px ;
+    display: none;
 }
 
 .hcatalist6{
@@ -190,6 +195,7 @@ hr{
     border-radius: 7px;
     z-index: 2;
     margin: 48px 0px 0px 215px ;
+    display: none;
 } 
 
 .hcatalist7{
@@ -201,6 +207,6 @@ hr{
     border-radius: 7px;
     z-index: 2;
     margin: 89px 0px 0px 260px ;
+    display: none;
 } 
-
 
